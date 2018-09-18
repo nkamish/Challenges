@@ -1,0 +1,92 @@
+/* General setup */
+/* Remember to always comment*/
+
+
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+}
+/* Chaning the fonts of my headings */
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 25px;
+}
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  text-indent: 20px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* Link for my google font types */
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Noto+Sans+JP" rel="stylesheet">
+
+
+
+p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 14px;
+}
+/* style for my list */
+ul {
+  list-style: circle;
+  color: #A52A2A;
+}
+
+li {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  color: #ac7339;
+}
+
+a:hover{
+  color: #dc143c;
+  text-decoration: none;
+}
