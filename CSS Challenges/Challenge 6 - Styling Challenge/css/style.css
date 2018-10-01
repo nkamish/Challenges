@@ -1,0 +1,138 @@
+
+/* styling for image on the right */
+aside {
+    float: right;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* styling for title */
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* styling for paragraphs begin here */
+
+.container1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 10%;
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+}
+
+/* styling for paragraphs ends here */
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+/* anchor tag styles begin here */
+
+    a {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* unvisited link */
+    a:link {
+        color: indigo;
+    }
+
+    /* visited link */
+    a:visited {
+        color: darkred;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: navy;
+    }
+
+    /* selected link */
+    a:active {
+        color: gold;
+    }
+
+/* achor tags styles ends here */
+
+/* form styling begins here */
+
+form {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+label {
+    width: 20%;
+    margin-top: 10px;
+}
+input {
+    width: 20%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: mediumblue;
+}
+
+/* form styling ends here */
+
+/* styling for empty container2 begins here */
+
+.container2 {
+    text-align: center;
+    background-color: mediumblue;
+    line-height: 1em;
+    float: left;
+    display: block;
+    width: 68.5%;
+    height: 1em;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+/* styling for empty container2 ends here */
+
+/* styling for container3 begins here */
+
+.container3 {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+/* styling for container3 ends here */
+
+/* footer styles begins here */
+
+.footer {
+    position: sticky;
+    display: block;
+    float: left;
+    width: 50%;
+    height: 1.1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* footer styles ends here */

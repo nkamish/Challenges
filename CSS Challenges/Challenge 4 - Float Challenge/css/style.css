@@ -1,0 +1,62 @@
+
+/* Box descriptions starts here */
+
+.bx1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+.bx2 {
+    width: 200px;
+    height: 200px;
+    background-color: sienna;
+    float: left;
+}
+.bx3 {
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    float: left;
+}
+.bx4 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+/* box descriptions ends here */
+
+/* box effects (hover and active) styles starts here */
+.bx1:hover:active {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 191);
+    transition: 1s;
+}
+.bx2:hover:active {
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    transition: 1s;
+}
+.bx3:active {
+    width: 200px;
+    height: 200px;
+    background-color: khaki;
+    transition: 1s;
+}
+.bx3:hover {
+    width: 600px;
+    height: 200px;
+    background-color: indigo;
+    transition: 1s;
+}
+.bx4:hover {
+    width: 50px;
+    height: 200px;
+    background-color: crimson;
+    transition: 1s;
+}
+/* box effects ends here */

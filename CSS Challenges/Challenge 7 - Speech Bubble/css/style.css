@@ -1,0 +1,24 @@
+
+/* Styling for speech bubble starts here */
+
+    #speech-bubble {
+        width: 200px;
+        height: 100px;
+        background-color: lightskyblue;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    /* creating the triangle on the side of the speech bubble */
+    #speech-bubble:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 13px solid transparent;
+        border-right: 26px solid lightskyblue;
+        border-bottom: 13px solid transparent;
+        margin: 13px 0 0 -25px; 
+    }
+
+/* styling for speech bubble ends here     */
